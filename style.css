@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(8, 8, 8, 0.733);
+    font-size: 25px;
+}
+.login-div{
+    margin-top: 20px;
+    border-radius: 35px;
+    background-color: rgba(248, 144, 8, 0.888);
+    width: 500px;
+    height: 700px;
+    box-shadow: 13px 13px 20px 35px rgba(10, 10, 10, 0.371) ,
+    -13px -13px 20px 3px rgba(233, 223, 223, 0.682) ;
+}
+.photo{
+    margin: 10px auto;
+    background: url(./2.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.title{
+    margin: auto;
+    width: 200px;
+    background-color: #e6a7de86;
+    border-radius: 46px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #0d0d0e;
+}
+.fileds{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(248, 242, 234); */
+    width: 200px;
+    height: 300px;
+    margin:0 auto;
+}
+.user,.pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff; */
+    width: 500px;
+    height: 130px;
+}
+.user-input ,.pass-input{
+    box-shadow: -2px -6px 25px 1px rgba(237, 231, 231, 0.641),
+    8px 8px 30px 2px rgb(18, 18, 18);
+    padding:0 25px;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(244, 248, 244, 0.545);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+  
+.login-button{
+    box-shadow: 8px 5px 20px 1px rgba(250, 245, 245, 0.305),
+    -8px -5px 20px 1px rgba(243, 240, 240, 0.233);
+    border: none;
+    color: #ffffff;
+    font-size: 50px;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(235, 92, 21, 0.74);
+    border-radius: 35px;
+    width: 270px;
+    height: 100px;
+}
+.login-button:hover{
+    cursor:pointer;
+    background-color: #0d0d0e;
+    box-shadow: 0px 0px 20px 5px rgb(235, 228, 24),
+     -0px -0px 20px 5px rgb(235, 228, 24);
+}
+.link{
+    margin: 30px;
+    text-align: center;
+}
+.link a{
+    padding: 10px;
+    /* background-color: rgb(51, 118, 227); */
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.A:hover{
+    background-color: rgb(219, 9, 9);
+}
+.B:hover{
+    background-color: rgb(17, 237, 46);
+}
+
+
+.svg-icon{
+    padding: 7px;
+    border-radius: 50%;
+    background-color: rgba(223, 41, 199, 0.986);
+    width: 50px;
+    margin-right: 11px;
+    margin-left: -25px;
+}
